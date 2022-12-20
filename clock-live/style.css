@@ -1,0 +1,51 @@
+#clockcontainer{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    /* border: 2px solid red; */
+    margin: auto;
+     background: url(../clock-live/5054.png) ;
+     background-size: cover;
+     background-repeat: no-repeat;
+    }
+
+#hour,#min,#sec{
+    position: absolute;
+    transform-origin: bottom;
+}
+    
+#hour{
+    
+    background-color: black;
+    border-radius: 10px;
+    height: 22%;
+    width: 1%;
+    top:28%;
+    left: 49.5%;
+    opacity: 0.7;
+    /* display: none; */
+}
+
+#min{
+    
+    background-color: rgb(164, 29, 29);
+    border-radius: 10px;
+    height: 25%;
+    width: 0.7%;
+    top:25.7%;
+    left: 49.5%;
+    opacity: 0.7;
+    /* display: none; */
+}
+#sec{
+    
+    background-color: rgb(61, 38, 166);
+    border-radius: 10px;
+    height: 14%;
+    width: 0.7%;
+    top:36%;
+    left: 49.6%;
+    opacity: 0.7;
+    /* display: none; */
+}
+
